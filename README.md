@@ -9,3 +9,8 @@ export GOPATH=`pwd`
 go build cmd/lcdEncoder.go
 ./lcdEncoder -input ./test.txt
 ```
+
+To run the tests, execute:
+```sh
+go test botsandus
+```
